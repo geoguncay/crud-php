@@ -1,0 +1,30 @@
+{
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3308,
+      "askForPassword": true,
+      "driver": "MySQL",
+      "name": "3308",
+      "username": "root",
+      "database": "tododb"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "askForPassword": true,
+      "driver": "MySQL",
+      "database": "tododb",
+      "name": "3306",
+      "username": "root"
+    }
+  ]
+}
