@@ -1,4 +1,5 @@
 <?php
+session_start();
 function connect(){
 	$host="localhost:3308";
 	$user="root";
@@ -9,11 +10,6 @@ function connect(){
 	return $conn;
 }
 
-//if (isset($conn)){
-//	die('Conexion exitosa');
-//}else{
-//	die('Conexion fallida');
-//}
 
 //
 //$connect = mysqli_connect(
