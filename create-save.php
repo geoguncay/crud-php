@@ -2,10 +2,10 @@
 include ('db_todo.php');
 
 if (isset($_POST['save_task'])){
-	$tit = $_POST['title'];
-	$contend = $_POST['content'];
+	$title = $_POST['title'];
+	$content = $_POST['content'];
 
-	$sql = "INSERT INTO tododb.list (title, content) VALUES ('$tit','$contend')";
+	$sql = "INSERT INTO tododb.list (title, content) VALUES ('$title','$content')";
 	$query = mysqli_query(connect() , $sql);
 	if(!$query){
 		die('Conexion fallida');

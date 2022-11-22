@@ -6,12 +6,12 @@
       },
       "previewLimit": 50,
       "server": "localhost",
-      "port": 3308,
+      "port": 3306,
       "askForPassword": true,
       "driver": "MySQL",
-      "name": "3308",
-      "username": "root",
-      "database": "tododb"
+      "database": "tododb",
+      "name": "3306",
+      "username": "root"
     },
     {
       "mysqlOptions": {
@@ -19,12 +19,38 @@
       },
       "previewLimit": 50,
       "server": "localhost",
-      "port": 3306,
-      "askForPassword": true,
+      "port": 3308,
+      "driver": "MySQL",
+      "name": "3308",
+      "username": "root",
+      "database": "tododb",
+      "password": ""
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3308,
       "driver": "MySQL",
       "database": "tododb",
-      "name": "3306",
-      "username": "root"
+      "username": "root",
+      "name": "3308",
+      "password": ""
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3308,
+      "driver": "MariaDB",
+      "name": "3308",
+      "database": "tododb",
+      "username": "root",
+      "password": ""
     }
   ]
 }

@@ -1,7 +1,7 @@
 <?php
 session_start();
 function connect(){
-	$host="localhost:3308";
+	$host="localhost";
 	$user="root";
 	$pass="";
 	$db = "tododb";

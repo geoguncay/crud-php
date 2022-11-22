@@ -2,8 +2,8 @@
 include 'db_todo.php';
 
 if(isset($_GET['id'])){
-	$del = $_GET['id'];
-	$query = 'delete from tododb.list where $del = $id';
+	$id = $_GET['id'];
+	$query = "DELETE FROM tododb.list WHERE id = $id";
 	$del_result = mysqli_query(connect(), $query);
 
 	if(!$del_result){
@@ -14,3 +14,6 @@ if(isset($_GET['id'])){
 
 	Header('Location: index.php');
 }
+
+//reset id 
+// alter table list auto_incrent = 1;
