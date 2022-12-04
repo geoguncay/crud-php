@@ -29,7 +29,7 @@
             <table class='table table-bordered'>
                 <thead>
                     <tr>
-                        <th>">Titulo </th>
+                        <th>Titulo </th>
                         <th>Descripcion</th>
                         <th>Aciones</th>
                     </tr>
